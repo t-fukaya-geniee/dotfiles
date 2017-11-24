@@ -70,13 +70,9 @@ export PATH="$GOBIN:$PATH"
 export CORRECT_IGNORE='_*'
 export CORRECT_IGNORE_FILE='.*'
 
+# _- も区切り文字として認識する
 export WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
-export WORDCHARS='*?.[]~&;!#$%^(){}<>'
-
-# History file and its size
-export HISTFILE=~/.zsh_history
-export HISTSIZE=1000000
-export SAVEHIST=1000000
+#export WORDCHARS='*?.[]~&;!#$%^(){}<>'
 
 # fzf - command-line fuzzy finder (https://github.com/junegunn/fzf)
 export FZF_DEFAULT_OPTS="--extended --ansi --multi"
@@ -94,6 +90,7 @@ export SAVEHIST=1000000
 # The size of asking history
 export LISTMAX=50
 # Do not add in root
+# TODO: なぜ？
 if [[ $UID == 0 ]]; then
     unset HISTFILE
     export SAVEHIST=0
