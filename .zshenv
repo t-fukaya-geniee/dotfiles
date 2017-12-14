@@ -66,10 +66,6 @@ export GOPATH="$HOME"
 export GOBIN="$GOPATH/bin"
 export PATH="$GOBIN:$PATH"
 
-# declare the environment variables
-export CORRECT_IGNORE='_*'
-export CORRECT_IGNORE_FILE='.*'
-
 # _- も区切り文字として認識する
 export WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 #export WORDCHARS='*?.[]~&;!#$%^(){}<>'

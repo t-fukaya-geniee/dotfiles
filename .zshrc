@@ -1,3 +1,4 @@
+echo reload
 # TODO このファイル全体にコメントつける
 umask 022
 limit coredumpsize 0
