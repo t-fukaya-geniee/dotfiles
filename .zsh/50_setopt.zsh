@@ -1,3 +1,4 @@
+echo opt
 # ディレクトリ関連
 # Do not print the directory stack after pushd or popd.
 #setopt pushd_silent
@@ -81,7 +82,7 @@ setopt print_exit_value
 # Show expaning and executing in what way
 # うざったいから切るかもしれない
 # TODO: 挙動を詳しく調べる
-setopt xtrace
+#setopt xtrace
 
 # Confirm when executing 'rm *'
 setopt rm_star_wait
