@@ -1,5 +1,3 @@
-echo aaa
-
 alias p="print -l"
 
 # For mac, aliases

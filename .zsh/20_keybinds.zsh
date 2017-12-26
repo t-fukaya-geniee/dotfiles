@@ -1,4 +1,3 @@
-echo a
 # Vim-like keybind as default
 bindkey -v
 # Vim-like escaping jj keybind

@@ -1,4 +1,3 @@
-echo opt
 # ディレクトリ関連
 # Do not print the directory stack after pushd or popd.
 #setopt pushd_silent
