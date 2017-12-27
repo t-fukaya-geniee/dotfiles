@@ -1,7 +1,7 @@
 # vim:ft=zplug
 
 ZPLUG_SUDO_PASSWORD=
-ZPLUG_PROTOCOL=ssh
+#ZPLUG_PROTOCOL=ssh
 
 zplug "zplug/zplug", hook-build:'zplug --self-manage'
 
